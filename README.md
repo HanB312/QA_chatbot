@@ -48,7 +48,7 @@ TinyLlama 모델을 통해 간결한 한국어 답변을 생성합니다.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓  
 💬 최종 답변 생성  
 
-
+---
 
 ## 실행 방법
 
@@ -64,6 +64,10 @@ pip install -U torch transformers langchain langchain-community sentence-transfo
 (2) ask("질문 내용") 함수를 통해 질의응답을 수행합니다.
 
 
+
+---
+
+
 ## 한계점
 | 항목              | 설명                               |
 | --------------- | -------------------------------- |
@@ -72,6 +76,8 @@ pip install -U torch transformers langchain langchain-community sentence-transfo
 | QA 불안정성         | 프롬프트를 그대로 반복하거나 답변을 생략하는 경우 발생   |
 
 
+
+---
 ## 향후 보완 계획
 1. **요약형 RAG 추가**
    - 긴 문서를 요약 후 질의응답하는 “2단계 RAG 구조” 도입
@@ -80,3 +86,4 @@ pip install -U torch transformers langchain langchain-community sentence-transfo
 2. **UI 인터페이스 구축**
    - Streamlit 기반 간단한 웹 UI 추가 예정
    - 문서 업로드 → 질문 입력 → 답변 확인 흐름 지원
+---
